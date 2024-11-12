@@ -10,8 +10,8 @@ This system generates code samples that align with a desired rating description.
 3. **Desired Rating Description**
 
 The system uses:
-- **Code Generating LLM (LMCG)** to generate code.
-- **Quality Scoring LLM (LMQS)** to evaluate and score the generated code.
+- **Code Generating LLM (LM<sub>CG</sub>)** to generate code.
+- **Quality Scoring LLM (LM<sub>QS</sub>)** to evaluate and score the generated code.
 
 ---
 
@@ -31,7 +31,8 @@ The system uses:
 ### 1. Set Up the Working Directory
 
 Change your working directory to:
-cd ICPC/Code_Augmentation
+
+$ cd ICPC/Code_Augmentation
 
 ### 2. Set Up the virtual Environment
 
