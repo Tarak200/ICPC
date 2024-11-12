@@ -1,4 +1,4 @@
-# ICPC
+# Dataset Augmentation
 
 ![Dataset Augmentation](images/final_CA.png "Dataset Augmentation Flow Diagram")
 
