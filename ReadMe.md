@@ -1,24 +1,24 @@
 ICPC
 ├── codes
-│   ├── dataset_utils.py
-│   ├── dpo_clean1.py
-│   ├── dpo_clean1phi.py
-│   ├── dpo_dataset_create.sh
-│   ├── dpo_sys_prompt.txt
-│   ├── dpotrain.sh
-│   ├── few_shot_sys_prompt.txt
-│   ├── grade_utils.py
-│   ├── grading.py
-│   ├── lora_clean.py
-│   ├── lora_dataset_create.sh
-│   ├── lora_sys_prompt.txt
-│   ├── lora_utils.py
-│   ├── loratrain.sh
-│   ├── model_utils.py
-│   ├── scramble-code.py
+│   ├── dataset_utils.py: contains helper functions
+│   ├── dpo_clean1.py: script to dpo fine-tune a model except phi model
+│   ├── dpo_clean1phi.py: script to dpo fine-tune a phi3.5-mini-Instruct
+│   ├── dpo_dataset_create.sh: bash script to generate dpo dataset
+│   ├── dpo_sys_prompt.txt: text file which has system prompt for dpo
+│   ├── dpotrain.sh: bash script to fine-tune a model
+│   ├── few_shot_sys_prompt.txt: text file which has system prompt for few-shot
+│   ├── grade_utils.py: contains helper functions for grading.py
+│   ├── grading.py: script used to grade the test datapoints 
+│   ├── lora_clean.py: scipt to lora fine-tune a model 
+│   ├── lora_dataset_create.sh: bash script which generates lora dataset
+│   ├── lora_sys_prompt.txt: text file which has system prompt for lora
+│   ├── lora_utils.py: contains helper functions for grading.py
+│   ├── loratrain.sh: bash script to lora fine-tune model using lora_clean
+│   ├── model_utils.py: contains helper functions for grading.py
+│   ├── scramble-code.py: script to scramble code
 │   ├── Untitled document
-│   ├── utils.py
-│   └── zero_shot_sys_prompt.txt
+│   ├── utils.py: contains helper functions for grading.py
+│   └── zero_shot_sys_prompt.txt: text file which has system prompt for zero-shot
 ├── Dataset_Augmentation
 │   ├── __pycache__
 │   ├── crit-desc
