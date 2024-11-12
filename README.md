@@ -1,6 +1,6 @@
 # ICPC
 
-![Dataset Augmentation](images/algorithm-flow.png "Dataset Augmentation Flow Diagram")
+![Dataset Augmentation](images/final_CA.png "Dataset Augmentation Flow Diagram")
 
 # Dataset Augmentation Pipeline
 
