@@ -52,6 +52,6 @@ The `README.md` contains detailed instructions on how to reproduce the results.
 
 - ### 7.2 Unixcoder
 
-  cd Encoder_Codes/UUniXcoder_codes
+  cd Encoder_Codes/UniXcoder_codes
   
   The `README.md` contains detailed instructions on how to reproduce the results.
