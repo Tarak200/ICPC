@@ -28,23 +28,7 @@ The system uses:
 
 ---
 
-### 1. Set Up the Working Directory
-
-Change your working directory to:
-
-$ cd ICPC/Code_Augmentation
-
-### 2. Set Up the virtual Environment
-
-$ python -m venc venv
-
-### 3. Installing Dependencies
-
-$ source venv/bin/activate
-
-$ pip install -r requirments.txt
-
-### 4. Starting the Dataset Augmentation pipeline
+### 1. Starting the Dataset Augmentation pipeline
 
 $ python CA.py
 
