@@ -17,6 +17,41 @@ This document provides instructions on how to set up and use the code repository
 Download the Google Drive content locally and upload the content to a server or a local VSC machine after unzipping the file
 
 ### 2. Moving to the project 
+
 cd ICPC
 
-### 3. 
+### 3. Set Up the virtual Environment
+
+$ python -m venv venv
+
+### 4. Installing Dependencies
+
+$ source venv/bin/activate
+
+$ pip install -r requirments.txt
+
+### 5. Dataset_Augmentation
+
+cd Dataset_Augmentation
+
+The `README.md` contains detailed instructions on how to reproduce the results.
+
+### 6. LoRA and DPO Training and Inference
+
+cd Codes
+
+The `README.md` contains detailed instructions on how to reproduce the results.
+
+### 7. Encoder Models
+
+- ### 7.1 GraphcodeBERT
+
+  cd Encoder_Codes/GraphCodeBERT_codes
+  
+  The `README.md` contains detailed instructions on how to reproduce the results.
+
+- ### 7.2 Unixcoder
+
+  cd Encoder_Codes/UUniXcoder_codes
+  
+  The `README.md` contains detailed instructions on how to reproduce the results.
