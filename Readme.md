@@ -1,4 +1,4 @@
-# Project Setup
+# Setup
 
 This document provides instructions on how to set up and use the code repository organized in the following structure:
 
