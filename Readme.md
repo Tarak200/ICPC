@@ -14,8 +14,9 @@ This document provides instructions on how to set up and use the code repository
 ## Setup Instructions
 
 ### 1. Clone the Repository
-Download the Google Drive content locally or clone the repository (if applicable) to your workspace.
+Download the Google Drive content locally and upload the content to a server or a local VSC machine after unzipping the file
 
-```bash
-git clone <repository-link>
-cd <project-folder>
+### 2. Moving to the project 
+cd ICPC
+
+### 3. 
